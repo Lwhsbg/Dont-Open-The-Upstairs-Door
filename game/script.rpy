@@ -9,6 +9,12 @@ label start:
     $ knows_childhood = False
     $ opened_door = False
     $ investigated = False
+    scene black
+    with fade
+    centered "{size=+8}CHAPTER 1{/size}\n{size=+3}THE UPSTAIRS DOOR{/size}"
+    pause 1.0
+
+
     scene house_exterior at bg_fit
     with dissolve 
     with fade 
@@ -66,3 +72,29 @@ label start:
             $ trust += 1
             p "Are you trying to scare me?"
             e "I wish I were."
+            p "It is an old house, ethan. It makes noises."
+            e "That is what I told myself."
+        "Promise that you will not open it.":
+            $ trust += 2
+            p "Fine, I will not open it."
+            e "You promise?"
+            p "I promise."
+            "He studies your face."
+            e "Thank you."
+    "Also, one more thing..."
+    e "If you hear me calling for help tonight, do not come upstairs."
+    p "Why would you be upstairs?"
+    e "Just remember what I said."
+    hide ethan
+    with dissolve
+    scene bedroom at bg_fit
+    with fade
+    with dissolve
+    "Ethan gives you a spare bedroom."
+    "You lie down there and stare at the ceiling."
+    "You tell yourself that your friend has become strange."
+    "Nothing more."
+    "Eventually, you fall asleep."
+    jump footsteps
+
+
