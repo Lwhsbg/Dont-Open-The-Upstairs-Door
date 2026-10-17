@@ -74,6 +74,39 @@ label footsteps:
             $ found_photo = True 
             $ clues += 1
             "The photograph shows three children standing outside the house." 
+            "Ethan is one of them."
+            "A little girl stands besides him."
+            "The third child looks strangely familiar."
+            "You turn the photograph over."
+            "Someone has written a sentence on the back."
+            "\"We buried the wrong one. \""
+            "You read it twice."
+            "You do not understand what it means at all."
+        "Leave it where it is.":
+            "You decide not to touch it."
+            "Something about the photograph makes you uncomfortable."
+    scene hallway_dark at bg_fit
+    with dissolve
+    with fade
+    "A floorboard creaks above you."
+    "Then a child's voice speaks to you from upstairs."
+    l "Ethan?"
+    l "Why did you leave me here?"
+    show ethan at right 
+    with hpunch
+    with dissolve
+    e "Go to your room."
+    p "Ethan, who is that?"
+    e "NOW."
+    hide ethan
+    with dissolve
+    scene bedroom at bg_fit
+    with dissolve
+    with fade
+    "You lock the bedroom door."
+    "You sit at the edge of the bed until the house goes quiet."
+    "At some point, you fall asleep again."
+    jump ch3
 
 
 
