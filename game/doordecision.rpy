@@ -73,5 +73,59 @@ label door_decision:
                 jump ending_curiosity
             "Walk away":
                 jump ending_escape
+label ending_escape:
+    scene hallway_dark at bg_fit
+    with dissolve
+    with fade
+    "You step away from the door."
+    p "I am not opening it."
+    l "You are leaving me again?"
+    "The voice inside sounds smaller now."
+    "Almost like the little girl in the photograph."
+    p "I am sorry, Lily."
+    l "You always say that."
+    "You turn away and head down the stairs."
+    "Ethan follows from closely behind."
+    scene foyer_dark at bg_fit
+    with dissolve
+    with fade
+    e "Do not stop walking."
+    p "What happens if we do?"
+    e "I do not know."
+    e "And I do not want to find out."
+    "You reach the front door and pull it open."
+    "Cold night air rushes into the house."
+    scene house_exterior at bg_fit
+    with dissolve
+    with fade
+    "For the first time all night, you can breathe properly."
+    p "We need to tell someone."
+    e "Tell them what?"
+    e "That a little girl that has been missing for years is talking through a locked door."
+    p "We cannot pretend like nothing ever happened."
+    e "I am not asking you to forget, I am asking you to survive."
+    "You both walk down the path and do not look back until you see the road."
+    p "Will you be okay?"
+    e "I do not know."
+    "He gives you a tired smile."
+    e "But at least we are outside."
+    scene black
+    with fade
+    "You leave the town before sunrise."
+    "You never return to the house."
+    "You then never speak about that night with anyone else."
+    "Months pass."
+    "Then years."
+    "The memories begin to be less vivid."
+    "The nightmares become less frequent."
+    "Eventually, you convince that all of that was just a dream."
+    "Until one rainy evening, a knock comes on your door, then another, then another."
+    "When you go check your door, there was nobody."
+    "Just a picture laying down, of Lisa.."
+    "And then from inside, three knocks come up."
+    centered "{size =+ 12}ENDING 1{/size}\n\nYOU FOLLOWED THE RULES"
+    return
+
+
 
     

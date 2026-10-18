@@ -89,3 +89,18 @@ label memory_confession:
     "A long silence follows."
     e "She is the one that you need to apologise to."
     scene upstairs_door at bg_fit
+    with dissolve
+    with fade
+    "The door at the end of the hallway stands before you."
+    "A faint light shines beneath it."
+    l "I herd everything."
+    "The doorknob turns."
+    menu:
+        "Open the door and face Lily.":
+            $ opened_door = True
+            jump door_decision
+        "Leave the house with Ethan":
+            jump ending_memory
+        "Refuse to go to the door.":
+            jump ending_escape
+            
