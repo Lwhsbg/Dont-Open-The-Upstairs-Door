@@ -66,5 +66,47 @@ label childhood_memory:
     e "Try harder."
     p "I am trying!!"
     "Your voice echoes throughout the room."
-    
+    "For a moment, neither of you move."
+    e "I am sorry."
+    "He looks exhausted."
+    e "I have spent years trying to figure out what happened that night. And now that you are finally here, I thought, i thought that you would remember something."
+    p "Why did you not tell me any of this before?"
+    e "Because you forgot."
+    p "Fotrgot?"
+    e "Yeah, you forgot everything."
+    scene foyer_dark at bg_fit
+    with fade 
+    with dissolve
+    "Then from upstairs, suddenly, comes a knock. A sudden knock."
+    pause 1.0
+    scene black
+    "Then another."
+    scene foyer_dark at bg_fit
+    with dissolve
+    with fade
+    pause 1.0
+    scene black
+    with fade
+    l "Ethan?"
+    scene foyer_dark at bg_fit
+    with dissolve
+    with fade
+    "Ethan's face turns pale."
+    l "Are you still there?"
+    e "Do not answer her."
+    p "But that is Lily."
+    e "No, it is not."
+    "You look down at the photograph one more time."
+    "The scratched up face of that girl in that photo almost seems familiar now."
+    menu:
+        "Ask Ethan to explain everything.":
+            jump memory_confession
+        "Tell Ethan that you want to leave.":
+            jump ending_memory:
+        "Go upstairs and just open the door.":
+            $ opened_door = True
+            jump door_decision
+            
+
+
     
