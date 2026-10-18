@@ -1,7 +1,7 @@
 label ch3:
     scene black
     with dissolve
-    centered "{size=+8}CHAPTER 2{/size}\n{size=+3}THE FOOTSTEPS{/size}"
+    centered "{size=+8}CHAPTER 3{/size}\n{size=+3}THE FOOTSTEPS{/size}"
     pause 1.0
     "3:17 AM."
     "Your phone screen is the only light in the room."
@@ -61,6 +61,47 @@ label ch3:
             "The voice sounds exactly like yours."
             "You step back."
             "You do not remember ever hearing your own voice sound like that."
+    scene foyer at bg_fit
+    with dissolve
+    with fade
+    "Morning then eventually arrives."
+    "The house then starts to look ordinary again."
+    "You find Ethan sitting in the living room."
+    show ethan at right 
+    with dissolve
+    e "Did you sleep?"
+    p "Not really."
+    e "Did you hear anything?"
+    menu:
+        "What do you tell him?"
+        "Tell him everything.":
+            $ trust += 1
+            p "Someone was knocking upstairs."
+            p "It sounded like you."
+            e "I told you not to listen."
+            p "You sent me messages."
+            e "I did not send you anything."
+            p "Then who did?"
+            "Ethan looks towards the staircase."
+            e "I do not know anymore."
+        "Tell him that nothing happened.":
+            $ trust += 1
+            p "Nothing."
+            e "Good."
+            p "You do not look surprised."
+            e "I was hoping that you would not hear it."
+        "Demand the truth":
+            $ trust -= 1
+            p "Stop lying to me."
+            p "You clearly know about what is upstairs."
+            e "I know what I heard."
+            p "Then tell me."
+            e "Not here."
+            e "Meet me downstairs later."
+    hide ethan 
+    with dissolve
+    jump ch4
+
     
 
 
