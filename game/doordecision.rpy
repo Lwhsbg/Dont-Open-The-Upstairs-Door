@@ -66,6 +66,12 @@ label door_decision:
             "Turn away and leave":
                 jump ending_escape
     else:
-        
+        "You have no idea of what it is awaiting inside."
+        "You only know that the door is unlocked."
+        menu:
+            "Open the door":
+                jump ending_curiosity
+            "Walk away":
+                jump ending_escape
 
     
