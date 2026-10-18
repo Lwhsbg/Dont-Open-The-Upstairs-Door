@@ -60,4 +60,55 @@ label ch4:
             "{i}It wants someone to take it's place.{/i}"
             "{i}The final entry is dated to only a few days ago.{/i}"
             "{i}Ethan has started talking to it again.{/i}"
-            "{i}"
+            "{i}He has said that he has invited someone who remembers.{/i}"
+            "You close the diary."
+        "You leave it alone.":
+            "You leave the diary beneath the floorboard, where it initially was."
+            "You feel like you have already seen and heard too much, and that diary would just drive you even crazier."
+    "You start hearing footsteps on the stairs."
+    "Someone was coming down."
+    show ethan at right 
+    with dissolve
+    with hpunch
+    e "You were not supposed to, no, you should not be down here."
+    p "You invited me to this house."
+    p "And gave me all the rules, without even explaining them."
+    p "And someone I dont have any idea of, which you say is nobody, knows my name and keeps on calling it."
+    e "I know."
+    p "Then tell me the truth? What in the actual world is happening in this house?"
+    e "When we were children, we always heard this same knocking from upstairs."
+    e "Our parents kept on telling us to ignore it, no matter how much we asked them about it."
+    e "And we did as exactly what our parents told us to do, we ignored it."
+    p "And then?"
+    e "The knocking at night eventually stopped."
+    e "But sometimes at night, we still heard her voice."
+    p "Then why did you invite me here?"
+    e "Because it started using your voice."
+    p "What?"
+    e "It knows things about you."
+    e "Things that you should not remember."
+    if found_photo:
+        p "I found a photo of three children."
+        e "You found that?"
+        e "Then you remember more than what I had initially thought."
+    if found_diary:
+        p "Your mother's diary says that you found someone that remembers."
+        e "I thought that you might be able to help me..."
+        e "I thought that if someone else heard what I was hearing, I would not have to face it alone."
+    p "What happened when we were children?"
+    e "I do not know."
+    e "I remember you standing at the top of the stairs."
+    e "I remember telling you not to open the door."
+    e "Then I remember running away."
+    p "You left me there?"
+    e "I genuinely do not remember what happened at all after that."
+    hide ethan
+    with dissolve
+    scene hallway_dark at bg_fit
+    with dissolve
+    with fade
+    "You look towards the staircase to the basement you were just in a moment ago."
+    "You had spent the entire night obeying the rules that you do not understand."
+    "You had discovered a photograph, a diary and a story of the past that seemed impossible to have happened."
+    "But the house still has one secret left."
+    jump ch5
