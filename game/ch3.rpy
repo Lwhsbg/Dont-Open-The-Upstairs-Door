@@ -37,7 +37,7 @@ label ch3:
             "You spend the rest of the night staring at the door."
         "Find Ethan":
             $ investigated = True
-            scene hallway_dark
+            scene hallway
             with dissolve
             "You step into the hallway."
             "The house different in the darkness."
@@ -61,7 +61,7 @@ label ch3:
             "The voice sounds exactly like yours."
             "You step back."
             "You do not remember ever hearing your own voice sound like that."
-    scene foyer at bg_fit
+    scene living_room at bg_fit
     with dissolve
     with fade
     "Morning then eventually arrives."

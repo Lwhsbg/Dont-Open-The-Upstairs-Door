@@ -104,7 +104,7 @@ label ch4:
     e "I genuinely do not remember what happened at all after that."
     hide ethan
     with dissolve
-    scene hallway_dark at bg_fit
+    scene hallway at bg_fit
     with dissolve
     with fade
     "You look towards the staircase to the basement you were just in a moment ago."

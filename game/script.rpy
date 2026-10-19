@@ -6,7 +6,7 @@ label start:
     $ found_photo = False
     $ found_diary = False
     $ found_note = False
-    $ knows_childhood = False
+    $ knows_childhood = False                
     $ opened_door = False
     $ investigated = False
     scene black
@@ -24,7 +24,7 @@ label start:
     "You told him you were nearly there, about to arrive."
     "You do not know why he was texting you so worriedly."
     "But something in his messages made it difficult to say no."
-    scene foyer at bg_fit
+    scene living_room at bg_fit
     with dissolve
     with hpunch
     show ethan at right 

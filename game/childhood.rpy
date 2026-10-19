@@ -74,21 +74,21 @@ label childhood_memory:
     e "Because you forgot."
     p "Fotrgot?"
     e "Yeah, you forgot everything."
-    scene foyer_dark at bg_fit
+    scene living_room at bg_fit
     with fade 
     with dissolve
     "Then from upstairs, suddenly, comes a knock. A sudden knock."
     pause 1.0
     scene black
     "Then another."
-    scene foyer_dark at bg_fit
+    scene living_room at bg_fit
     with dissolve
     with fade
     pause 1.0
     scene black
     with fade
     l "Ethan?"
-    scene foyer_dark at bg_fit
+    scene living_room at bg_fit
     with dissolve
     with fade
     "Ethan's face turns pale."

@@ -1,5 +1,5 @@
 label memory_confession:
-    scene hallway_dark
+    scene hallway at bg_fit
     with dissolve
     with fade
     show ethan at right
@@ -103,4 +103,4 @@ label memory_confession:
             jump ending_memory
         "Refuse to go to the door.":
             jump ending_escape
-            
+

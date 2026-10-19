@@ -74,7 +74,7 @@ label door_decision:
             "Walk away":
                 jump ending_escape
 label ending_escape:
-    scene hallway_dark at bg_fit
+    scene hallway at bg_fit
     with dissolve
     with fade
     "You step away from the door."
@@ -86,7 +86,7 @@ label ending_escape:
     l "You always say that."
     "You turn away and head down the stairs."
     "Ethan follows from closely behind."
-    scene foyer_dark at bg_fit
+    scene living_room at bg_fit
     with dissolve
     with fade
     e "Do not stop walking."
@@ -123,7 +123,7 @@ label ending_escape:
     "When you go check your door, there was nobody."
     "Just a picture laying down, of Lisa.."
     "And then from inside, three knocks come up."
-    centered "{size =+ 12}ENDING 1{/size}\n\nYOU FOLLOWED THE RULES"
+    centered "{size=+12}ENDING 1{/size}\n\nYOU FOLLOWED THE RULES"
     return
 label ending_curiosity:
     scene upstairs_door at bg_fit
@@ -160,10 +160,10 @@ label ending_curiosity:
     p "You are not ethan."
     "His smile widens."
     e "Does it matter?"
-    centered "{size =+ 12}ENDING 2{/size}\n\nCURIOSITY KILLED YOU"
+    centered "{size=+12}ENDING 2{/size}\n\nCURIOSITY KILLED YOU"
     return
 label ending_memory:
-    scene hallway_dark at bg_fit
+    scene hallway at bg_fit
     with dissolve
     with fade
     "You step away from the upstairs door."
@@ -181,9 +181,78 @@ label ending_memory:
     e "Come on."
     "You follow him downstairs."
     "Neither of you looks back."
-    centered "{size =+ 12}ENDING 3{/size}\n\nTHE MEMORY WE LEFT BEHIND"
+    centered "{size=+12}ENDING 3{/size}\n\nTHE MEMORY WE LEFT BEHIND"
     return
-label ending_secret    
+label ending_secret:
+
+    scene upstairs_door at bg_fit 
+    with fade
+
+    n "You open the door and find a small bedroom covered in dust."
+    n "Old toys lie scattered across the floor, and drawings cover the walls."
+
+    p "Lily's room..."
+
+    n "A little girl sits on the bed, smiling at you."
+
+    l "You finally came back."
+
+    p "I'm sorry I left you."
+
+    l "You didn't leave me."
+
+    n "You stare at her, confused."
+
+    l "You were the one who was trapped."
+
+    n "A memory flashes through your mind."
+    n "A locked door. Ethan screaming. Your own hands desperately reaching for the handle."
+
+    p "What happened to me?"
+
+    l "You finally remembered."
+
+    n "Three knocks come from behind you."
+
+    e "Open the door! We have to leave!"
+
+    n "You turn toward the voice, but Lily grabs your hand."
+
+    l "Don't trust him."
+
+    p "He's my friend!"
+
+    l "Then why did he leave you here?"
+
+    n "The door opens slightly."
+    n "You see a hand reaching toward you."
+
+    e "Come on! Quickly!"
+
+    n "You look at Lily, then at the doorway."
+    n "Suddenly, you remember the final line in the diary."
+
+    n "\"If you remember the truth, one of you must stay.\""
+
+    l "Choose."
+
+    scene black
+    with fade
+
+    n "The next morning, the house is silent."
+    n "A new photograph hangs on the wall."
+
+    n "Four children stand outside the house."
+    n "Three faces have been scratched out."
+
+    n "The fourth child is smiling."
+
+    n "Behind the upstairs door, a little girl begins to laugh."
+
+    centered "{size=+12}ENDING 4{/size}\n\nTHE SECRET FOURTH KNOCK"
+
+    return
+
 
 
 

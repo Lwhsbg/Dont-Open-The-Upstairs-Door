@@ -3,7 +3,7 @@ label footsteps:
     with dissolve
     centered "{size=+8}CHAPTER 2{/size}\n{size=+3}THE FOOTSTEPS{/size}"
     pause 1.0
-    scene living_room
+    scene living_room at bg_fit
     with fade
     with dissolve
     "You wake up some time after midnight."
@@ -16,7 +16,7 @@ label footsteps:
     "Another, then another."
     "They stop directly over your head."
     "You then remember the first rule that was given."
-    scene kitchen_dark at bg_fit
+    scene kitchen at bg_fit
     with dissolve
     show ethan at right
     with dissolve
@@ -63,7 +63,7 @@ label footsteps:
     "Ethan leaves you alone."
     hide ethan
     with dissolve
-    scene hallway_dark at bg_fit
+    scene hallway at bg_fit
     with dissolve
     with fade
     "As you walk past an old cabinet, you spot something that immediately catches your eye."
@@ -85,7 +85,7 @@ label footsteps:
         "Leave it where it is.":
             "You decide not to touch it."
             "Something about the photograph makes you uncomfortable."
-    scene hallway_dark at bg_fit
+    scene hallway at bg_fit
     with dissolve
     with fade
     "A floorboard creaks above you."
