@@ -102,11 +102,11 @@ label childhood_memory:
         "Ask Ethan to explain everything.":
             jump memory_confession
         "Tell Ethan that you want to leave.":
-            jump ending_memory:
+            jump ending_memory
         "Go upstairs and just open the door.":
             $ opened_door = True
             jump door_decision
-            
+
 
 
     

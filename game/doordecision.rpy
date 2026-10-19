@@ -125,6 +125,66 @@ label ending_escape:
     "And then from inside, three knocks come up."
     centered "{size =+ 12}ENDING 1{/size}\n\nYOU FOLLOWED THE RULES"
     return
+label ending_curiosity:
+    scene upstairs_door at bg_fit
+    with dissolve
+    with fade
+    "You turn the handle."
+    "The door opens with a long creak."
+    scene black
+    with fade
+    "You expect to find a bedroom inside."
+    "Instead, you end up finding a hallway that stretches into endless darkness."
+    p "What is this place?"
+    "There is no answer."
+    "You look back, the stair disappears."
+    l "You came back."
+    p "Lily, is that you?"
+    l "You left me here."
+    p "I was a child. I did not know what was happening."
+    l "You heard me."
+    p "I am sorry."
+    l "You said that you would come back."
+    "You tried to move towards her."
+    "The hallway grows more and more with every step."
+    p "Please, I just want to go home."
+    l "Huh? This is your home."
+    "While running, you see ethan."
+    "You hear him."
+    e "Do not stop running!"
+    "He reaches for your hand."
+    "His fingers are ice cold."
+    e "You should not have opened it."
+    "You look into his face."
+    "His eyes are completely dark."
+    p "You are not ethan."
+    "His smile widens."
+    e "Does it matter?"
+    centered "{size =+ 12}ENDING 2{/size}\n\nCURIOSITY KILLED YOU"
+    return
+label ending_memory:
+    scene hallway_dark at bg_fit
+    with dissolve
+    with fade
+    "You step away from the upstairs door."
+    p "We are leaving."
+    e "But Lily..."
+    p "We cannot save someone if we do not understand what we are dealing with."
+    e "I have been trying to understand for years."
+    p "Then maybe it is time for you to stop trying."
+    "Ethan looks towards the door then a soft knock comes from behind it."
+    e "I am sorry, Lily..."
+    "For a moment, the house is completely silent."
+    "Then the voice speaks again."
+    l "You always say that."
+    "Ethan opens his eyes."
+    e "Come on."
+    "You follow him downstairs."
+    "Neither of you looks back."
+    centered "{size =+ 12}ENDING 3{/size}\n\nTHE MEMORY WE LEFT BEHIND"
+    return
+label ending_secret    
+
 
 
 

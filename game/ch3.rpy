@@ -16,7 +16,7 @@ label ch3:
     "It says, I am in my room, do not leave yours."
     "Another message follows."
     "It says, whatever you hear, it is not me."
-    scene upstairs_door at bg fit 
+    scene upstairs_door at bg_fit 
     with dissolve
     with fade
     v "You promised me that you would come back."
