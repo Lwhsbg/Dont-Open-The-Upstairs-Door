@@ -18,3 +18,14 @@ Tech stack:
 
 # What I Struggled With & What I Learnt
 The thing i Struggled with was actually making different files for different scenes as I had never done that and just used to compile a million lines in one file so thats a very cool thing and the game itself was very simple so i did not have much issues regarding it. Overall making this project was very fun.
+
+## Screenshots
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1ae175e9-a7b7-4b1f-9620-d53facbeef9a" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6efeadc9-be4d-45f1-b269-3a2c07448056" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9ef8f671-7879-4c3f-bad0-f6a1c90f6bf7" />
+
+
+
